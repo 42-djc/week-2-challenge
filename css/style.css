@@ -31,3 +31,25 @@ p {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100px 100px 100px
 }
+.contact-content{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 50px;
+}
+
+nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 50px;
+}
+header{
+  display: grid;
+  grid-template-columns:  25% 25% 50%;
+  grid-template-areas: 50px;
+}
+.hero-banner{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 150px;
+
+}
