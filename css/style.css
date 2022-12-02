@@ -21,3 +21,13 @@ h6 {
 p {
   margin: 0;
 }
+.container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 200px 400px 200px
+}
+.work-examples{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 100px 100px
+}
