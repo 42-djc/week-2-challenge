@@ -11,7 +11,11 @@ body {
 
 h1,
 h2,
-h3,
+h3{
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0px 0px;
+}
 h4,
 h5,
 h6 {
@@ -24,17 +28,24 @@ p {
 .container {
   display: grid;
   grid-template-columns: 25% 75%;
-  grid-template-rows: 200px 400px 200px
 }
-.work-examples{
+#WorkGrid{
+  margin  0px 5%;
   display: grid;
+  grid-template-rows: 300px 300px 300px 300px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 100px 100px
+  grid-template-areas: 
+  "rb rb"
+  "rb rb"
+  "p1 p2"
+  "p3 p4" ;
 }
-.contact-content{
+
+#contact-content{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas: 50px;
+  
 }
 
 nav{
@@ -53,3 +64,68 @@ header{
   grid-template-rows: 150px;
 
 }
+.WorkGridArea  {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+/*.WorkGridArea {
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  position: relative;
+}*/
+
+#work{
+}
+
+/*#bookcases {
+  grid-area:bk ;
+  background-image: url("../images/02-run-buddy.jpg");
+
+}
+#bedroom {
+  grid-area: bd;
+  background-image: url("../images/beds@2x.png");
+}
+
+#couches {
+  grid-area: co;
+  background-image: url("../images/couch@2x.png");
+}
+
+#patio {
+   grid-area: pa ; 
+  background-image: url("../images/patio@2x.png");
+}
+
+#desks {
+  grid-area: de;
+  background-image: url("../images/desks@2x.png");
+}
+*/
+
+#run-buddy{
+background-image: url("../images/02-run-buddy.jpg");
+grid-area: rb;
+}
+#portfolio1{
+background-image: url("../images/02-portfolio-1.jpg");
+grid-area: p1;}
+
+#portfolio2{
+background-image: url("../images/02-portfolio-2.jpg");
+grid-area: p2;}
+
+#portfolio3{
+background-image: url("../images/02-portfolio-3.jpg");
+grid-area: p3;}
+
+#portfolio4{
+background-image: url("../images/02-portfolio-4.jpg");
+grid-area: p4;}*/
