@@ -48,10 +48,28 @@ p {
   
 }
 
-nav{
+/*nav{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas: 50px;
+}*/
+
+nav{
+  width: 800px;
+  position: absolute;
+  top: 0%;
+  left: 55%;
+}
+
+nav ul{
+  padding: 20px auto;
+  margin: 20px 20px ;
+}
+
+nav li{
+  display: inline;
+  text-decoration: none;
+  margin: auto 5px;
 }
 header{
   display: grid;
@@ -128,4 +146,16 @@ grid-area: p3;}
 
 #portfolio4{
 background-image: url("../images/02-portfolio-4.jpg");
-grid-area: p4;}*/
+grid-area: p4;}
+
+.contacts ul{
+  width: auto;
+  margin: 0 25px;
+  padding: 0 20px;
+}
+
+.contacts li{
+  display: inline;
+  text-decoration: none;
+  padding: 0 20px 30px;
+}
